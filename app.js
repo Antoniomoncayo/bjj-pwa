@@ -1,60 +1,147 @@
 const routines = {
-  dia1: [
-    "Calentamiento (10 min): movilidad articular y jumping jacks",
-    "Hip escapes (4x10 cada lado)",
-    "Bridges (4x10)",
-    "Granby rolls (3x8)",
-    "Shadow grappling (3x3 min)"
-  ],
-  dia2: [
-    "Estiramiento dinámico (10 min)",
-    "Sit-outs (4x10)",
-    "Técnica de guardia: shrimp to guard (3x10)",
-    "Técnica de pase: knee cut (3x10)",
-    "Revisión combinada (3x2 min)"
-  ],
-  dia3: [
-    "Movilidad (8 min)",
-    "Rolling breakfalls (4x8)",
-    "Hip heist drills (3x10)",
-    "Granby roll + sit-out (3x10)",
-    "Flow solo drill (5 min)"
-  ],
-  dia4: [
-    "Rotación articular (8 min)",
-    "Reverse shrimp + hip escape combo (3x10)",
-    "Bridge + roll + sit-out (4x8)",
-    "Pasada simulada de guardia (3x10)",
-    "Simulación de barrido en cadena (3x2 min)"
-  ],
-  dia5: [
-    "Shadow grappling (10 min)",
-    "Secuencia completa: shrimp + sit-out + bridge (3x10)",
-    "Granby + hip heist (3x10)",
-    "Revisión de drills semanales (4x2 min)",
-    "Cool down y estiramiento (5 min)"
-  ]
+  dia1: {
+    "🟢 Calentamiento (10-15 min)": [
+      "Movilidad articular general",
+      "Jumping jacks - 3 min",
+      "Movilidad de cuello - 2 min",
+      "Skipping o trote en el sitio - 5 min"
+    ],
+    "🟡 Movilidad y desarrollo de cadera (10 min)": [
+      "Shrimping - 4x8",
+      "Shoulder bridges - 3x10",
+      "Hip escapes - 4x8"
+    ],
+    "🔵 Técnica básica (15-20 min)": [
+      "Technical stand-up - 4x10",
+      "Sit outs - 3x10",
+      "Granby rolls - 3x8"
+    ],
+    "🟣 Encadenamientos (15-20 min)": [
+      "Shrimp → bridge → sit-out (3x5 circuitos)",
+      "Granby roll → hip heist (3x5 circuitos)"
+    ],
+    "🟤 Finisher o sombra (5-10 min)": [
+      "Shadow grappling libre - 5 min"
+    ]
+  },
+  dia2: {
+    "🟢 Calentamiento (10-15 min)": [
+      "Movilidad de hombros y brazos",
+      "Skipping lateral - 3 min",
+      "Movilidad lumbar - 5 min"
+    ],
+    "🟡 Movilidad y desarrollo de cadera (10 min)": [
+      "Hip heists - 4x8",
+      "Reverse shrimps - 3x10",
+      "Bridge + hip escape - 3x8"
+    ],
+    "🔵 Técnica básica (15-20 min)": [
+      "Sit outs - 4x10",
+      "Technical stand-up + paso - 3x8",
+      "Granby con giro completo - 2x6"
+    ],
+    "🟣 Encadenamientos (15-20 min)": [
+      "Shrimp + stand-up + roll (3x5 circuitos)"
+    ],
+    "🟤 Finisher o sombra (5-10 min)": [
+      "Shadow grappling - 5-7 min"
+    ]
+  },
+  dia3: {
+    "🟢 Calentamiento (10-15 min)": [
+      "Jumping jacks - 3 min",
+      "Skipping en el sitio - 2 min",
+      "Movilidad general - 10 min"
+    ],
+    "🟡 Movilidad y desarrollo de cadera (10 min)": [
+      "Shrimping - 5x6",
+      "Bridges - 4x8",
+      "Sit outs - 3x10"
+    ],
+    "🔵 Técnica básica (15-20 min)": [
+      "Técnica de defensa en el suelo - 3x10",
+      "Granby roll - 3x6"
+    ],
+    "🟣 Encadenamientos (15-20 min)": [
+      "Bridge → roll → stand-up (4x5 circuitos)"
+    ],
+    "🟤 Finisher o sombra (5-10 min)": [
+      "Combate imaginario con ritmo - 6 min"
+    ]
+  },
+  dia4: {
+    "🟢 Calentamiento (10-15 min)": [
+      "Saltos con apertura de piernas - 3x30s",
+      "Trote suave - 5 min",
+      "Movilidad de articulaciones"
+    ],
+    "🟡 Movilidad y desarrollo de cadera (10 min)": [
+      "Bridge con rotación - 4x6",
+      "Reverse shrimp - 3x10",
+      "Hip heist - 3x10"
+    ],
+    "🔵 Técnica básica (15-20 min)": [
+      "Technical stand-up lento - 4x8",
+      "Sit outs explosivos - 4x6"
+    ],
+    "🟣 Encadenamientos (15-20 min)": [
+      "Bridge + shrimp + Granby (3x6 secuencias)"
+    ],
+    "🟤 Finisher o sombra (5-10 min)": [
+      "Shadow drill continuo - 7 min"
+    ]
+  },
+  dia5: {
+    "🟢 Calentamiento (10-15 min)": [
+      "Rotaciones articulares completas",
+      "Trote y movilidad general"
+    ],
+    "🟡 Movilidad y desarrollo de cadera (10 min)": [
+      "Shrimp en línea - 3x8",
+      "Bridge + hip heist - 3x8"
+    ],
+    "🔵 Técnica básica (15-20 min)": [
+      "Sit out + Granby - 4x6",
+      "Technical stand-up + pase - 3x10"
+    ],
+    "🟣 Encadenamientos (15-20 min)": [
+      "Shrimp → sit-out → stand-up (4x4)"
+    ],
+    "🟤 Finisher o sombra (5-10 min)": [
+      "Combate libre mental - 5 min"
+    ]
+  }
 };
 
-const routineSelector = document.getElementById("routineSelector");
-const routineList = document.getElementById("routineList");
+function renderRoutine(routine) {
+  const content = document.getElementById("routineContent");
+  content.innerHTML = "";
+  for (let section in routine) {
+    const sec = document.createElement("section");
+    const title = document.createElement("h2");
+    title.textContent = section;
+    const list = document.createElement("ul");
+    routine[section].forEach(ex => {
+      const li = document.createElement("li");
+      li.textContent = ex;
+      list.appendChild(li);
+    });
+    sec.appendChild(title);
+    sec.appendChild(list);
+    content.appendChild(sec);
+  }
+}
 
-routineSelector.addEventListener("change", () => {
-  const selected = routineSelector.value;
-  routineList.innerHTML = "";
-  routines[selected].forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    routineList.appendChild(li);
- // Pega esto al final de tu archivo app.js
-
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker
-      .register("/service-worker.js")
-      .then(res => console.log("Service worker registrado"))
-      .catch(err => console.log("Service worker no registrado", err));
-  });
+const selector = document.getElementById("routineSelector");
+selector.addEventListener("change", () => {
+  const val = selector.value;
+  const keys = Object.keys(routines);
+  if (val === "random") {
+    const randKey = keys[Math.floor(Math.random() * keys.length)];
+    renderRoutine(routines[randKey]);
+  } else {
+    renderRoutine(routines[val]);
+  }
 });
 
-routineSelector.dispatchEvent(new Event("change"));
+renderRoutine(routines["dia1"]);

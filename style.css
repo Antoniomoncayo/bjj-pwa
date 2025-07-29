@@ -17,14 +17,21 @@ select {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
+  font-size: 1rem;
+}
+section {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 5px solid #007BFF;
+}
+section h2 {
+  margin-top: 0;
 }
 ul {
   list-style: none;
-  padding: 0;
+  padding-left: 1rem;
 }
 li {
-  background: #fff;
-  margin: 0.5rem 0;
-  padding: 1rem;
-  border-left: 5px solid #007BFF;
+  margin-bottom: 0.5rem;
 }
