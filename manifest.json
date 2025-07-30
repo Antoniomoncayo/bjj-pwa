@@ -1,14 +1,19 @@
 {
-  "name": "Rutinas BJJ",
-  "short_name": "BJJ App",
+  "name": "BJJ Solo Drills",
+  "short_name": "BJJ Drills",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#f4f4f4",
-  "theme_color": "#222",
+  "background_color": "#121212",
+  "theme_color": "#1E1E1E",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]

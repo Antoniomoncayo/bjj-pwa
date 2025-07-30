@@ -3,23 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entrenamiento BJJ en Casa v2</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko:wght@500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="icon.png" />
   <script src="app.js" defer></script>
-  <title>Entrenamiento BJJ en Casa</title>
 </head>
 <body>
-  <header><h1>Entrenamiento BJJ en Casa</h1></header>
+  <header>
+    <h1>BJJ Solo Drills</h1>
+  </header>
   <main>
-    <select id="routineSelector">
-      <option value="dia1">Día 1</option>
-      <option value="dia2">Día 2</option>
-      <option value="dia3">Día 3</option>
-      <option value="dia4">Día 4</option>
-      <option value="dia5">Día 5</option>
-      <option value="random">Día Aleatorio</option>
-    </select>
+    <div id="routineSelector" class="day-selector">
+      <button data-day="dia1" class="active">Día 1</button>
+      <button data-day="dia2">Día 2</button>
+      <button data-day="dia3">Día 3</button>
+      <button data-day="dia4">Día 4</button>
+      <button data-day="dia5">Día 5</button>
+      <button data-day="random"><i class="fa-solid fa-dice"></i></button>
+    </div>
     <div id="routineContent"></div>
   </main>
 </body>
