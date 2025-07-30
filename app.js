@@ -1,114 +1,124 @@
 const routines = {
   dia1: {
     "🟢 Calentamiento (10-15 min)": [
-      "Movilidad articular general",
-      "Jumping jacks - 3 min",
-      "Movilidad de cuello - 2 min",
-      "Skipping o trote en el sitio - 5 min"
+      "Movilidad articular (cuello, hombros, codos, muñecas, caderas, rodillas, tobillos) - 5 min",
+      "Jumping jacks - 2 min",
+      "Leg swings (frontales y laterales) - 3 min",
+      "Trote en el sitio con rodillas altas - 2 min"
     ],
     "🟡 Movilidad y desarrollo de cadera (10 min)": [
-      "Shrimping - 4x8",
-      "Shoulder bridges - 3x10",
-      "Hip escapes - 4x8"
+      "Shrimping (fuga de cadera) hacia adelante - 3x10 por lado",
+      "Shoulder bridges (puentes sobre hombros) - 3x15",
+      "Rocking (balanceo en posición de tortuga) - 2x30s"
     ],
     "🔵 Técnica básica (15-20 min)": [
-      "Technical stand-up - 4x10",
-      "Sit outs - 3x10",
-      "Granby rolls - 3x8"
+      "Technical stand-up (levantada técnica) - 3x8 por lado",
+      "Rolls (volteretas) hacia adelante y atrás sobre el hombro - 3x6",
+      "Sprawls - 3x10"
     ],
     "🟣 Encadenamientos (15-20 min)": [
-      "Shrimp → bridge → sit-out (3x5 circuitos)",
-      "Granby roll → hip heist (3x5 circuitos)"
+      "Shrimp → Bridge → Technical Stand-up (3x5 circuitos por lado)",
+      "Forward Roll → Stand up in base (levantarse en posición de combate) (3x8 circuitos)"
     ],
     "🟤 Finisher o sombra (5-10 min)": [
-      "Shadow grappling libre - 5 min"
+      "Shadow Grappling: Enfócate en movimientos de escape y levantadas técnicas - 5 min"
     ]
   },
   dia2: {
     "🟢 Calentamiento (10-15 min)": [
-      "Movilidad de hombros y brazos",
+      "Movilidad espinal (gato-vaca) - 2 min",
+      "Bear crawls (caminata de oso) - 3x20s",
       "Skipping lateral - 3 min",
-      "Movilidad lumbar - 5 min"
+      "Arm circles (círculos con los brazos) - 2 min"
     ],
     "🟡 Movilidad y desarrollo de cadera (10 min)": [
-      "Hip heists - 4x8",
-      "Reverse shrimps - 3x10",
-      "Bridge + hip escape - 3x8"
+      "Sit-outs (giro y base) - 3x10 por lado",
+      "Leg pummels (esgrima de piernas) en el suelo - 3x30s",
+      "Cossack squats (sentadillas cosacas) para movilidad - 3x8 por lado"
     ],
     "🔵 Técnica básica (15-20 min)": [
-      "Sit outs - 4x10",
-      "Technical stand-up + paso - 3x8",
-      "Granby con giro completo - 2x6"
+      "Granby rolls - 3x6 por lado",
+      "Penetration step (paso de penetración para derribo) - 3x10",
+      "Back roll to turtle (voltereta atrás a tortuga) - 3x10"
     ],
     "🟣 Encadenamientos (15-20 min)": [
-      "Shrimp + stand-up + roll (3x5 circuitos)"
+      "Sit-out → Spin back to turtle (girar a posición de tortuga) (3x8 circuitos)",
+      "Penetration step → Sprawl (simulando intento y defensa) (3x10 circuitos)"
     ],
     "🟤 Finisher o sombra (5-10 min)": [
-      "Shadow grappling - 5-7 min"
+      "Shadow Grappling: Enfócate en transiciones y cambios de nivel - 7 min"
     ]
   },
   dia3: {
     "🟢 Calentamiento (10-15 min)": [
-      "Jumping jacks - 3 min",
-      "Skipping en el sitio - 2 min",
-      "Movilidad general - 10 min"
+      "Inchworms (gusanos) - 3x8",
+      "Torso twists (giros de torso) - 2 min",
+      "Saltos con apertura de piernas - 3 min",
+      "Movilidad de cadera (90/90) - 3 min"
     ],
     "🟡 Movilidad y desarrollo de cadera (10 min)": [
-      "Shrimping - 5x6",
-      "Bridges - 4x8",
-      "Sit outs - 3x10"
+      "Reverse shrimping (recuperación de cadera) - 3x10 por lado",
+      "Bridges con rotación (puente con giro para escapar) - 3x10",
+      "Hip switches (cambios de cadera 90/90) - 3x12"
     ],
     "🔵 Técnica básica (15-20 min)": [
-      "Técnica de defensa en el suelo - 3x10",
-      "Granby roll - 3x6"
+      "Breakfalls (caídas) laterales y hacia atrás - 3x8",
+      "Postura y movimiento de pie (stance and motion) - 5 min continuos",
+      "Shoulder rolls (voltereta sobre el hombro) - 3x6 por lado"
     ],
     "🟣 Encadenamientos (15-20 min)": [
-      "Bridge → roll → stand-up (4x5 circuitos)"
+      "Sprawl → Hip heist → Technical stand-up (3x5 circuitos por lado)",
+      "Shoulder roll → Sit out (3x6 circuitos por lado)"
     ],
     "🟤 Finisher o sombra (5-10 min)": [
-      "Combate imaginario con ritmo - 6 min"
+      "Shadow Grappling: Enfócate en la defensa (sprawls, caídas, movimiento) - 6 min"
     ]
   },
   dia4: {
     "🟢 Calentamiento (10-15 min)": [
-      "Saltos con apertura de piernas - 3x30s",
-      "Trote suave - 5 min",
-      "Movilidad de articulaciones"
+      "Movilidad general - 5 min",
+      "Crab walks (caminata de cangrejo) - 3x20s",
+      "Skipping con variaciones - 5 min"
     ],
     "🟡 Movilidad y desarrollo de cadera (10 min)": [
-      "Bridge con rotación - 4x6",
-      "Reverse shrimp - 3x10",
-      "Hip heist - 3x10"
+      "Granby rolls (enfocados en la flexión de cadera) - 3x5 por lado",
+      "Leg triangles (triángulos con piernas) en el aire - 3x12",
+      "Inversions a los hombros (invertidas) - 3x8"
     ],
     "🔵 Técnica básica (15-20 min)": [
-      "Technical stand-up lento - 4x8",
-      "Sit outs explosivos - 4x6"
+      "Armbar motion from guard (movimiento de armbar desde la guardia) - 3x12",
+      "Guard retention (retención de guardia): mover caderas y piernas - 5 min",
+      "Technical stand-up (levantada técnica) - 3x10 por lado"
     ],
     "🟣 Encadenamientos (15-20 min)": [
-      "Bridge + shrimp + Granby (3x6 secuencias)"
+      "Bridge → Shrimp → Leg pummel (3x6 circuitos)",
+      "Back roll → Granby roll (3x5 circuitos)"
     ],
     "🟤 Finisher o sombra (5-10 min)": [
-      "Shadow drill continuo - 7 min"
+      "Shadow Grappling: Enfócate en el trabajo de guardia (retención y ataques imaginarios) - 8 min"
     ]
   },
   dia5: {
     "🟢 Calentamiento (10-15 min)": [
-      "Rotaciones articulares completas",
-      "Trote y movilidad general"
+      "Revisión de movilidad de todos los días - 5 min",
+      "Trote ligero y sombra de boxeo suave - 5 min",
+      "Jumping squats (sentadillas con salto) - 2x10"
     ],
     "🟡 Movilidad y desarrollo de cadera (10 min)": [
-      "Shrimp en línea - 3x8",
-      "Bridge + hip heist - 3x8"
+      "Flow de Movimiento: Combina Shrimps, Bridges y Sit-outs libremente - 5 min",
+      "Pigeon pose (postura de la paloma) para estirar - 2 min por lado"
     ],
     "🔵 Técnica básica (15-20 min)": [
-      "Sit out + Granby - 4x6",
-      "Technical stand-up + pase - 3x10"
+      "Revisión de la semana: Elige 3 movimientos básicos y perfeciónalos - 15 min",
+      "(Ej: Technical stand-up, Granby Roll, Sprawl)"
     ],
     "🟣 Encadenamientos (15-20 min)": [
-      "Shrimp → sit-out → stand-up (4x4)"
+      "Flow Drill: Combina 4 o más movimientos de forma fluida y continua.",
+      "(Ej: Shrimp → Bridge → Roll → Stand-up → Penetration Step)",
+      "Realiza secuencias de 1 minuto, descansa 30s. (x5)"
     ],
     "🟤 Finisher o sombra (5-10 min)": [
-      "Combate libre mental - 5 min"
+      "Full Shadow Grappling: Combate imaginario completo, de pie y en el suelo, con alta intensidad. - 5 a 10 min"
     ]
   }
 };
@@ -144,4 +154,5 @@ selector.addEventListener("change", () => {
   }
 });
 
+// Carga la rutina del día 1 por defecto al abrir la página
 renderRoutine(routines["dia1"]);
